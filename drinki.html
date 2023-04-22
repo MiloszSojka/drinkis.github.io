@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drinki</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* styl ogólny */
+      body {
+        background-color: #f8f8f8;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* styl nagłówka */
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      /* styl kontenera drinków */
+      .drink-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      
+      /* styl poszczególnego drinka */
+      .drink {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+      }
+      
+      /* styl zdjęcia drinka */
+      .drink img {
+        height: 200px;
+        margin-bottom: 10px;
+        object-fit: cover;
+        width: 100%;
+      }
+      
+      /* styl tytułu drinka */
+      .drink h2 {
+        color: #333;
+        font-size: 22px;
+        margin-top: 0;
+      }
+      
+      /* styl składników drinka */
+      .drink p {
+        color: #555;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 10px 0;
+      }
+      
+      /* styl ceny drinka */
+      .drink span {
+        color: #333;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Karta drinków</h1>
+    </header>
+    <div class="drink-container">
+      <div class="drink">
+        <img src="vm.jpg" alt="Drink 1">
+        <h2>Vodka Martini</h2>
+        <p>Składniki: Wódka, Wermut słodki, Sweeps Mohito, Sok z cytryny</p>
+      </div>
+      <div class="drink">
+        <img src="ws.jpg" alt="Drink 2">
+        <h2>Whisky Sour</h2>
+        <p>Składniki: Whisky, Sok z cytryny, Syrop cukrowy</p>
+      </div>
+      <div class="drink">
+        <img src="jg.jpg" alt="Drink 3">
+        <h2>Jack's Godfather</h2>
+        <p>Składniki: Whisky, Amaretto, Cola</p>
+      </div>
+      <div class="drink">
+        <img src="hugo.jpeg" alt="Drink 4">
+        <h2>Hugo</h2>
+        <p>Składniki: Prosseco, Syrop z kwiatów czarnego bzu, Mięta, Limonka</p>
+      </div>
+      <div class="drink">
+        <img src="gs.jpg" alt="Drink 5">
+        <h2>Grenadine Sunrise</h2>
+        <p>Składniki: Wódka, Sok Pomarańczowy, Grenadyna</p>
+        <p><span>Cena:</span> 18 zł</p>
+      </div>
+      </div>
+
+  </body>
+</html>
